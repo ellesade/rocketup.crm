@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* header */
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 0 90px;
+    margin-top: 38px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #E9771F;
+}
+.logo{
+    padding: 31px ;
+}
+/* baner */
+.baner{
+    position: relative;
+    height: 566px;
+}
+.baner-zal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 568px;
+    background: var(--img) center/cover;
+    z-index: 1;
+    opacity: 0.9;
+}
+.baner-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 568px;
+    background: var(--img) center/cover;
+    z-index: 0;
+}
+.baner-text-box {
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 113px;
+    top: 103px;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+}
+.baner-label {
+    color: white;
+    font-size: 4vw;
+}
+
+.baner-text-box-two {
+    position: absolute;
+    z-index: 2;
+    width: 60%;
+    height: 70px;
+    right: 20%;
+    left: 20%;
+    top: 300px;
+    text-align: center;
+}
+.baner-text {
+    font-size: 1.7vw;
+    color: white;
+}
+#btn{
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 450px;
+    left: 40vw;
+    right: 40vw;
+    bottom: 0;
+    background: #FF6F00;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Montserrat';
+}
+b{
+    color: #FF6F00;
+}
+
+/* one */
+.one-box{
+    height: 400px;
+}
+.one-grid-box {
+    position: relative;
+    height: 150px;
+    width: 80%;
+    right: 10%;
+    left: 10%;
+    top: 30%;
+    bottom: 30%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.one-item {
+}
+.one-item1{
+    font-size: 36px;
+}
+.one-item1 h2{
+    color: #E9771F;
+}
+.one-item2{
+    text-align: justify;
+    font-size: 20px;
+}
+/* main */
+.main{
+    height: 3500px;
+    position: relative;
+    background: linear-gradient(180deg, #0C2340 0%, #000000 100%);
+}
+.main-text{
+    color: white;
+    position: absolute;
+    left: 99px;
+    top: 80px;
+    font-size: 30px;
+}
+.box1{
+    position: absolute;
+    width: 415px;
+    height: 303px;
+    left: 770px;
+    top: 218px;
+    z-index: 1;
+}
+.box2{
+    position: absolute;
+    z-index: 1;
+    width: 490.19px;
+    height: 386px;
+    left: 32px;
+    top: 582px;
+}
+.box3{
+    position: absolute;
+    left: 804px;
+    top: 915px;
+    z-index: 1;
+}
+.box4{
+    position: absolute;
+    left: 75px;
+    top: 1388px;
+    z-index: 1;
+}
+.line1{
+    position: absolute;
+    width: 430.04px;
+    height: 118.29px;
+    left: 457.53px;
+    top: 430.14px;
+    z-index: 0;
+}
+.line2{
+    position: absolute;
+    width: 421.04px;
+    height: 114.29px;
+    left: 506.84px;
+    top: 703.63px;
+}
+.line3{
+    position: absolute;
+    left: 445.49px;
+    top: 1207.29px;
+}
+/* text box */
+.box1 p{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 20%;
+    right: 20%;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+}
+.box1 h1{
+    position: absolute;
+    top: -15%;
+    color: white;
+    right: 5%;
+    font-size: 26px;
+}
+.box2 p{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    font-size: 15px;
+    text-align: center;
+    width: 350px;
+}
+.box2 h1{
+    position: absolute;
+    top: -15%;
+    color: white;
+    right: 5%;
+    font-size: 26px;
+}
+.box3 p{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 18%;
+    right: 20%;
+    font-size: 15px;
+    text-align: center;
+    width: 250px;
+}
+.box3 h1{
+    position: absolute;
+    top: -15%;
+    color: white;
+    right: 0;
+    font-size: 26px;
+    width: 400px;
+}
+.box4 p{
+    position: absolute;
+    color: white;
+    top: 10%;
+    left: 15%;
+    right: 20%;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+}
+.box4 h1{
+    position: absolute;
+    top: -15%;
+    color: white;
+    left: 5%;
+    font-size: 26px;
+    width: 450px;
+}
+/* person */
+.main-face{
+    position: absolute;
+    top: 210px;
+    left: 120px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: center;
+    width: 300px;
+}
+.faceimg{
+    margin-left: 25%;
+    margin-bottom: 15px;
+    width: 140px;
+}
+.name{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+.jobtitle{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    width: 100%;
+}
+.words{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 13px;
+}
+.main-face2{
+    position: absolute;
+    top: 545px;
+    left: 850px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: center;
+    width: 300px;
+}
+.main-face3{
+    position: absolute;
+    top: 1000px;
+    left: 120px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: center;
+    width: 300px;
+}
+.main-face4{
+    position: absolute;
+    top: 1400px;
+    left: 863px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: center;
+    width: 300px;
+}
+.main-grid{
+    position: absolute;
+    top: 1900px;
+    left: 5%;
+    right: 5%;
+    height: 400px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.main-face5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+    align-items: center;
+    width: 300px;
+}
+.victory{
+    height: 400px;
+    position: relative;
+    top: 2300px;
+}
+.victory-grid{
+    position: absolute;
+    height: 200px;
+    top: 25%;
+    bottom: 25%;
+    right: 15%;
+    left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 70px;
+}
+.victory-grid-box{
+    color: white;
+    font-size: 20px;
+    text-align: start;
+}
+.victory2{
+    height: 400px;
+    position: relative;
+    top: 2400px;
+}
+.victory2 h1{
+    color: white;
+    text-align: center;
+}
+.victory2 h3{
+    color:#696D6E;
+    text-align: center;
+}
+/* form */
+.three-form{
+    width: 70%;
+    height: 142px;
+    position: absolute;
+    bottom: 150px;
+    left: 15%;
+    right: 15%;
+    background-color: #FF6F00;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.three-form-box{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 300px 1fr;
+    gap: 40px;
+    height: 40px;
+    margin-top: 70px;
+    position: relative;
+    left: 7%;
+    right: 10%;
+    background-color: #FF6F00;
+    
+}
+.three-box-input {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.three-box-input input::placeholder{
+    color: #F5F5F5;
+}
+
+.three-text{
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.three-form button{
+    background-color: white;
+    color: #E9771F;
+    position: absolute;
+    height: 40px;
+    border-radius: 66px;
+    border: 0;
+    font-size: 15px;
+    width: 170px;
+    transition-duration: 1s;
+}
+.three-form button:hover{
+    background-color: #0C2340;
+    color: white;
+}
+.input1{
+    height: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.39);
+}
+.input2{
+    height: 40px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 0;
+    background: rgba(255, 255, 255, 0.39);
+}
+footer{
+    position: relative;
+    height: 400px;
+    background: white
+}
+.footer-grid-box{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    left: 10%;
+    height: 200px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.footer-block{
+    color: black;
+    font-size: 15px;
+}
+footer h1{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: black;
+    font-size: 30px;
+}
+.footerimg{
+    position: absolute;
+    top: 58px;
+    left: 10%;
+}

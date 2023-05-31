@@ -1,0 +1,543 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* header */
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 0 90px;
+    margin-top: 38px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #E9771F;
+}
+.logo{
+    padding: 31px ;
+}
+/* baner */
+.baner{
+    position: relative;
+    height: 566px;
+}
+.baner-zal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 568px;
+    background: var(--img) center/cover;
+    z-index: 1;
+    opacity: 0.9;
+}
+.baner-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 568px;
+    background: var(--img) center/cover;
+    z-index: 0;
+}
+.baner-text-box {
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 113px;
+    top: 123px;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+}
+.baner-label {
+    color: white;
+    font-size: 4vw;
+}
+
+.baner-text-box-two {
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    height: 87px;
+    right: 30%;
+    left: 30%;
+    top: 270px;
+    text-align: center;
+}
+.baner-text {
+    font-size: 1.5vw;
+    color: white;
+}
+#btn{
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 450px;
+    left: 40vw;
+    right: 40vw;
+    bottom: 0;
+    background: #FF6F00;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    transition-duration: 1s;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.one{
+    height: 1000px;
+    position: relative;
+    width: 100%;
+   
+}
+.one-border{
+    position: absolute;
+    height: 1000px;
+    width: 80%;
+    top: 0;
+    left: 10%;
+    right: 10%;
+   
+}
+.one-block1{
+    height: 500px;
+    
+}
+.one-label{
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    width: 606px;
+    
+}
+.one-text1{
+    width: 879px;
+    height: 96px;
+    position: absolute;
+    top: 150px;
+    text-align: start;
+    font-size: 20px;
+}
+.one-text2{
+    width: 95%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.one-grid-block1 p{
+    font-size: 20px;
+    position: absolute;
+    color: #0C2340;
+}
+.one-grid-block2 p{
+    font-size: 14px;
+    color: #3E3C3C;
+}
+.one-block2{
+    height: 500px;
+    
+    position: relative;
+}
+/* Grid */
+.three-grid{
+    position: relative;
+    top: 150px;
+    left: 20px;
+    height: 200px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.three-block{
+    display: grid;
+    grid-template-columns: 100px 2fr;
+}
+.three-block-a{
+    width: 400px;
+}
+.three-block-b img{
+    width: 70px;
+}
+
+.three-block-a b{
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 12px;
+}
+.three-block-a p{
+    font-family: 'Raleway';
+    font-size: 14px;
+}
+/* TWO */
+.two{
+    height: 1924px;
+    position: relative;
+    background: linear-gradient(180deg, #0C2340 0%, #000000 97.92%);
+}
+.two-label{
+    color: white;
+    position: absolute;
+    left: 149px;
+    top: 72px;
+    font-size: 40px;
+    z-index: 2;
+}
+/* GRID 2*/
+.three-grid2 {
+    position: relative;
+    top: 240px;
+    left: 190px;
+    height: 500px;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    z-index: 2;
+}
+.three-block2 {
+    display: grid;
+    grid-template-columns: 0 2fr;
+}
+.three-block-a2 {
+    color: white;
+}
+.three-block-b2 {
+    height: 80px;
+    width: 80px;
+    background-color: #0C234070;
+    border-radius: 100px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+/* GRID3 */
+.block-three-main3 {
+    position: absolute;
+    height: 1050px;
+    width: 80%;
+    top: 780px;
+    left: 10%;
+    right: 10%;
+    background-color: #0C1A2B;
+    color: white;
+    border-radius: 60px;
+    z-index: 2;
+}
+.three-label3 {
+    text-align: start;
+    margin-left: 3%;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.three-grid3 {
+    width: 90%;
+    height: 650px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 0 1fr;
+    gap: 20px;
+    color: black;
+}
+.three-block-icon3 {
+    padding-top: 10px;
+}
+.three-block3 {
+    font-size: 16px;
+    height: 93px;
+    background-color: #FF6F00;
+    border-radius: 22px;
+    padding: 15px 20px;
+}
+.three-glav3 {
+}
+.svg1{
+    position: absolute;
+    left: 98px;
+    top: 65px;
+    z-index: 1;
+}
+.svg2{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 200px;
+}
+.svg3{
+    position: absolute;
+    left: 0;
+    top: 900px;
+}
+.svg4{
+    position: absolute;
+    right: 0;
+    top: 900px;
+}
+/* Three */
+
+.threebox{
+    position: relative;
+    height: 1455px;
+}
+.threebox-label{
+    position: absolute;
+    width: 60%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+    font-size: 30px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 30px;
+    top: -55px;
+    padding: 25px 0;
+    z-index: 2;
+    border-radius: 21px;
+}
+.main-grid{
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    right: 5%;
+    height: 400px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.main-grid-box{
+    text-align: center;
+}
+.name{
+    font-size: 18px;
+}
+/* four */
+.fourbox{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top: 500px;
+}
+.block-label-two-box {
+    font-size: 36px;
+    text-align: start;
+    margin-left: 5%;
+}
+.block-two-item{
+    display: grid;
+    margin-left: 5%;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 290px;
+}
+.block-item{
+    border: 1px solid black;
+    width: 200px;
+    padding: 40px 30px;
+    background-color: #0C2340;
+    color: white;
+    border-radius: 19px;
+}
+.block-item p{
+    font-size: 13px;
+}
+.block-item .glav{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.svg5{
+    position: absolute;
+    top: 50px;
+    z-index: -1;
+}
+.svg6{
+    position: absolute;
+    right: 5%;
+    top: 50px;
+    z-index: -1;
+}
+/* five */
+.fivebox{
+    position: relative;
+    width: 75%;
+    height: 411px;
+    left: 12.5%;
+    right: 12.5%;  
+    top: 1000px;
+    background: #FF6F00;
+    border-radius: 44px;
+}
+.fivemain{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    right: 0;
+    color: white;
+    font-size: 32px;
+}
+.fivemain p{
+    position: absolute;
+    top: 45px;
+    width: 440px;
+}
+.fivemain1{
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    right: 0;
+    color: white;
+}
+.text1{
+    position: absolute;
+    top: 150px;
+    width: 400px;
+    text-align: start;
+    font-size: 19px;
+}
+.price{
+    position: absolute;
+    top: 250px;
+    font-size: 32px;
+}
+#button3{
+    position: absolute;
+    top: 330px;
+    width: 199px;
+    height: 47px;
+    border-radius: 19.5px;
+    border: 0;
+    background: #0C2340;
+    color: white;
+    font-size: 24px;
+    transition-duration: 1s;
+}
+#button3:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+.svg7{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+.svg8{
+    position: absolute;
+    right: 98px;
+    top: -30px;
+}
+.svg9{
+    position: absolute;
+    right: 114px;
+    top: -10px;
+}
+/* six */
+.four-block-box {
+    height: 400px;
+    background: #0C2340;
+    position: relative;
+    overflow: hidden;
+    top: 1200px;
+}
+.four-main-grid{
+    display: grid;
+    grid-template-columns: 335px 335px 335px 335px;
+    height: 200px;
+    width: 100%;
+    gap: 70px;
+    position: relative;
+    top: 143px;
+    bottom: 0;
+    right: 0;
+    left: 50px;
+}
+.four-block{
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+    position: relative;
+}
+.text2{
+    position: absolute;
+    left: 100px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.four-block p{
+    position: absolute;
+    font-size: 10px;
+    top: 90px;
+    width: 300px;
+}
+.four-label{
+    position: absolute;
+    color: white;
+    font-size: 46px;
+    left: 15%;
+    top: 10%;
+}
+.svg10{
+    position: absolute;
+    top: 10px;
+}
+footer{
+    position: relative;
+    height: 400px;
+    top: 550px;
+    background: white
+}
+.footer-grid-box{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    left: 10%;
+    height: 200px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.footer-block{
+    color: black;
+    font-size: 15px;
+}
+footer h1{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: black;
+    font-size: 30px;
+}
+.footerimg{
+    position: absolute;
+    top: 58px;
+    left: 10%;
+}

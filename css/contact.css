@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 0 90px;
+    margin-top: 38px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: #E9771F;
+}
+.logo{
+    padding: 31px ;
+}
+/* main grid */
+.main{
+    position: relative;
+    height: 631px;
+    width: 100%;
+    background: #0C2340;
+}
+.main-box{
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    height: 100%;
+}
+.main-label{
+    position: absolute;
+    width: 335px;
+    height: 78px;
+    left: 0;
+    top: 90px;
+    color: white;
+    font-size: 64px;
+}
+.main-grid{
+    position: absolute;
+    bottom: 30px;
+    height: 60%;
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.main-item{
+    color: white;
+    font-size: 16px;
+}
+/* one */
+.one{
+    height: 1000px;
+    position: relative;
+}
+.one-box{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    height: 100%;
+}
+.one-label{
+    position: absolute;
+    top: 40px;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    color: #0C2340;
+}
+.one-grid{
+    position: absolute;
+    height: 400px;
+    top: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* form */
+.three-form{
+    width: 45%;
+    height: 350px;
+    border: 1px solid red;
+    position: absolute;
+    top: 500px;
+    left: 31%;
+    right: 30%;
+    background-color: #FF6F00;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.three-form-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 160px;
+    margin-bottom: 8%;
+    margin-top: 10%;
+    position: relative;
+    background-color: #FF6F00;
+    
+}
+.three-box-input {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.three-box-input input{
+    height: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 0;
+}
+.three-box-textarea {
+    border: 0;
+}
+.three-box-textarea textarea{
+    height: 74%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 0;
+}
+.three-text{
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.three-form button{
+    background-color: #0C2340;
+    color: white;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 35px;
+    height: 54px;
+    border-radius: 66px;
+    border: 0;
+    font-size: 13px;
+    transition-duration: 1s;
+}
+.three-form button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+footer{
+    position: relative;
+    height: 400px;
+    background: #0C2340;
+}
+.footer-grid-box{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    left: 10%;
+    height: 200px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.footer-block{
+    color: white;
+    font-size: 15px;
+}
+footer h1{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: white;
+    font-size: 30px;
+}
+.footerimg{
+    position: absolute;
+    top: 58px;
+    left: 10%;
+}

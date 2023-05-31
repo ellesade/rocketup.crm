@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+/* header */
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+    padding: 0 90px;
+    margin-top: 38px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 500ms;
+}
+.nav a:hover{
+    color: #E9771F;
+}
+.logo{
+    padding: 31px ;
+}
+/* baner */
+.baner{
+    position: relative;
+    height: 566px;
+}
+.baner-zal{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 568px;
+    background: var(--img) center/cover;
+    z-index: 1;
+    opacity: 0.9;
+}
+.baner-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 568px;
+    background: var(--img) center/cover;
+    z-index: 0;
+}
+.baner-text-box {
+    position: absolute;
+    z-index: 2;
+    width: 90%;
+    height: 113px;
+    top: 103px;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+}
+.baner-label {
+    color: white;
+    font-size: 4vw;
+}
+
+.baner-text-box-two {
+    position: absolute;
+    z-index: 2;
+    width: 40%;
+    height: 87px;
+    right: 30%;
+    left: 30%;
+    top: 300px;
+    text-align: center;
+}
+.baner-text {
+    font-size: 1.5vw;
+    color: white;
+}
+#btn{
+    height: 40px;
+    position: absolute;
+    z-index: 2;
+    top: 450px;
+    left: 40vw;
+    right: 40vw;
+    bottom: 0;
+    background: #FF6F00;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+    font-size: 15px;
+    font-family: 'Montserrat';
+    transition-duration: 1s;
+    transition-property: all;
+}
+#btn:hover{
+    background: white;
+    color: black;
+    transform: scale(1.1);
+}
+/* main */
+.main{
+    position: relative;
+    width: 100%;
+}
+.block-one{
+    position: relative;
+    height: 261px;
+    width: 884px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+    margin-bottom: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:  #0C2340;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 42px;
+}
+.block-one-column {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.block-one-text {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    font-size: 36px;
+    color: white;
+}
+/* block 2 */
+.block-two-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    padding: 25px 10px;
+    gap: 10px;
+}
+.class-two p{
+    font-size: 10px;
+}
+.block-two {
+    height: 500px;
+    width: 100%;
+}
+.block-label-two-box {
+    font-size: 36px;
+    text-align: start;
+    margin-left: 5%;
+}
+.block-two-item{
+    display: grid;
+    margin-left: 5%;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    height: 240px;
+}
+.block-item{
+    border: 1px solid black;
+    width: 200px;
+    padding: 40px 30px;
+}
+.block-item p{
+    font-size: 10px;
+}
+.block-item .glav{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* block 3 */
+.block-three{
+    position: relative;
+}
+.block-three-box-one{
+    position: relative;
+    height: 600px;
+    
+    background-color: #0C2340;
+}
+.block-three-box-text {
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    right: 90px;
+    bottom: 340px;
+    z-index: 1;
+}
+.block-three-box-text p{
+    margin-top: 40px;
+}
+.block-three-box-text li{
+    margin-left: 20px;
+}
+.block-three-box-img{
+    position: absolute;
+    top: 125px;
+    left: -5px;
+    z-index: 1;
+}
+.block-three-box-img1{
+    position: absolute;
+    top: 110px;
+    left: -5px;
+    z-index: 0;
+}
+.block-three-box-img2{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    z-index: 0;
+}
+.block-three-box-two{
+    height: 1200px;
+}
+.block-three-main{
+    position: absolute;
+    height: 700px;
+    top: 550px;
+    left: 20%;
+    right: 20%;
+    background-color: white;
+    border-radius: 60px;
+}
+.three-label{
+    text-align: start;
+    margin-left: 15%;
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.three-grid {
+    width: 80%;
+    height: 590px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    gap: 10px;
+}
+.three-block-icon {
+    padding-top: 10px;
+}
+.three-block .three-glav{
+    padding-top: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.three-block p{
+    font-size: 16px;
+}
+.three-form{
+    width: 45%;
+    height: 350px;
+    border: 1px solid red;
+    position: absolute;
+    bottom: 30px;
+    left: 31%;
+    right: 30%;
+    background-color: #FF6F00;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.three-form-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 160px;
+    margin-bottom: 8%;
+    margin-top: 10%;
+    position: relative;
+    background-color: #FF6F00;
+    
+}
+.three-box-input {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.three-box-input input{
+    height: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 0 15px;
+    border: 0;
+}
+.three-box-textarea {
+    border: 0;
+}
+.three-box-textarea textarea{
+    height: 74%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 0;
+}
+.three-text{
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.three-form button{
+    background-color: #0C2340;
+    color: white;
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 35px;
+    height: 54px;
+    border-radius: 66px;
+    border: 0;
+    font-size: 13px;
+    transition-duration: 1s;
+}
+.three-form button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+.three-block-bg {
+    position: absolute;
+    bottom: 40px;
+}
+.three-block-bg1 {
+    position: absolute;
+    bottom: 300px;
+    right: 0;
+}
+.four-block-box {
+    height: 400px;
+    background: #0C2340;
+    position: relative;
+    overflow: hidden;
+}
+.four-main-grid{
+    display: grid;
+    grid-template-columns: 335px 335px 335px 335px;
+    height: 200px;
+    width: 100%;
+    gap: 70px;
+    position: relative;
+    top: 143px;
+    bottom: 0;
+    right: 0;
+    left: 50px;
+}
+.four-block{
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 20px;
+}
+.four-block h1{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.four-block p{
+    font-size: 10px;
+}
+.four-label{
+    position: absolute;
+    color: white;
+    font-size: 46px;
+    left: 15%;
+    top: 10%;
+}
+.five-box{
+    height: 400px;
+    position: relative;
+}
+.five-box-grid{
+    position: absolute;
+    height: 200px;
+    top: 25%;
+    bottom: 25%;
+    right: 15%;
+    left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 70px;
+}
+.five-box-item h1{
+    font-size: 40px;
+}
+footer{
+    position: relative;
+    height: 400px;
+    background: linear-gradient(180deg, #0C2340 0%, #000000 77.6%);
+}
+.footer-grid-box{
+    position: absolute;
+    bottom: 15%;
+    right: 0;
+    left: 10%;
+    height: 200px;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.footer-block{
+    color: white;
+    font-size: 15px;
+}
+footer h1{
+    position: absolute;
+    left: 10%;
+    top: 13%;
+    color: white;
+    font-size: 30px;
+}
