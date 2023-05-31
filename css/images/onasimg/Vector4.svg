@@ -1,0 +1,21 @@
+<svg width="421" height="360" viewBox="0 0 421 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_144_553)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M221.645 6.62927C276.734 10.4639 335.76 12.4161 374.339 48.5911C412.597 84.4645 421.15 138.431 415.354 188.265C410.148 233.022 381.364 270.783 344.974 301.078C310.576 329.713 267.945 345.478 221.645 349.524C169.287 354.099 112.893 355.463 72.2656 324.908C28.6576 292.11 12.1277 239.713 7.23472 188.265C1.78178 130.93 -2.36359 64.6882 43.7981 25.5827C89.3201 -12.9808 159.779 2.32288 221.645 6.62927Z" fill="url(#paint0_radial_144_553)"/>
+</g>
+<defs>
+<filter id="filter0_d_144_553" x="0" y="0" width="421" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_144_553"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_144_553" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_144_553" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(210.5 176) rotate(90.1458) scale(196.501 230.553)">
+<stop offset="0.543941" stop-color="#E9771F"/>
+<stop offset="1" stop-color="#0C2340"/>
+</radialGradient>
+</defs>
+</svg>
